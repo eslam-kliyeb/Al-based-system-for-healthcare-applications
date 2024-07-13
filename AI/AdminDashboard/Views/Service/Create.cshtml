@@ -1,0 +1,58 @@
+﻿@model CreateViewModel
+@{
+    ViewData["Title"] = "Create";
+    var loginDto = Model.loginDto;
+}
+
+<h1>Add New Patient</h1>
+<div class="container">
+    <form method="post" href="@Url.Action("Index", "Service" , @Model)" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="@Model.patientInputDto.Name" class="col-form-label"></label>
+            <input asp-for="@Model.patientInputDto.Name" class="form-control" />
+            <span asp-validation-for="@Model.patientInputDto.Name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.patientInputDto.Country" class="col-form-label"></label>
+            <input asp-for="@Model.patientInputDto.Country" class="form-control" />
+            <span asp-validation-for="@Model.patientInputDto.Country" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.patientInputDto.City" class="col-form-label"></label>
+            <input asp-for="@Model.patientInputDto.City" class="form-control" />
+            <span asp-validation-for="@Model.patientInputDto.City" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.patientInputDto.Phone" class="col-form-label"></label>
+            <input asp-for="@Model.patientInputDto.Phone" class="form-control" />
+            <span asp-validation-for="@Model.patientInputDto.Phone" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.patientInputDto.Age" class="col-form-label"></label>
+            <input asp-for="@Model.patientInputDto.Age" class="form-control" />
+            <span asp-validation-for="@Model.patientInputDto.Age" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.patientInputDto.MriImage" class="col-form-label "></label>
+            <input asp-for="@Model.patientInputDto.MriImage" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label class=" col-form-label" asp-for="@Model.loginDto.Email" hidden></label>
+            <input readonly class="form-control" asp-for="@Model.loginDto.Email" placeholder="Enter Salary" hidden>
+        </div>
+        <div class="form-group">
+            <label class=" col-form-label" asp-for="@Model.loginDto.Password" hidden></label>
+            <input readonly class="form-control" asp-for="@Model.loginDto.Password" placeholder="Enter Salary" hidden>
+        </div>
+
+
+        <input type="submit" value="Add" class="btn btn-primary" />
+        <a href="@Url.Action("Index", "Service" , @Model.loginDto)" class="btn btn-light">Back To List</a>
+    </form>
+</div>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}

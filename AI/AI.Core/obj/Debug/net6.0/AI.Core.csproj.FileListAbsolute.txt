@@ -1,0 +1,12 @@
+D:\Project AI\AI\API\AI\AI.Core\bin\Debug\net6.0\AI.Core.deps.json
+D:\Project AI\AI\API\AI\AI.Core\bin\Debug\net6.0\AI.Core.dll
+D:\Project AI\AI\API\AI\AI.Core\bin\Debug\net6.0\AI.Core.pdb
+D:\Project AI\AI\API\AI\AI.Core\obj\Debug\net6.0\AI.Core.csproj.AssemblyReference.cache
+D:\Project AI\AI\API\AI\AI.Core\obj\Debug\net6.0\AI.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project AI\AI\API\AI\AI.Core\obj\Debug\net6.0\AI.Core.AssemblyInfoInputs.cache
+D:\Project AI\AI\API\AI\AI.Core\obj\Debug\net6.0\AI.Core.AssemblyInfo.cs
+D:\Project AI\AI\API\AI\AI.Core\obj\Debug\net6.0\AI.Core.csproj.CoreCompileInputs.cache
+D:\Project AI\AI\API\AI\AI.Core\obj\Debug\net6.0\AI.Core.dll
+D:\Project AI\AI\API\AI\AI.Core\obj\Debug\net6.0\refint\AI.Core.dll
+D:\Project AI\AI\API\AI\AI.Core\obj\Debug\net6.0\AI.Core.pdb
+D:\Project AI\AI\API\AI\AI.Core\obj\Debug\net6.0\ref\AI.Core.dll

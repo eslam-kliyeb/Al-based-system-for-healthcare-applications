@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "CS15Dw6hKB71wcheGhC11SDZVeDQm+bHIVBLz6bQ9ag=",
+  "Source": "AI",
+  "BasePath": "_content/AI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AI\\wwwroot",
+      "Source": "AI",
+      "ContentRoot": "D:\\Project AI\\AI\\API\\AI\\AI\\wwwroot\\",
+      "BasePath": "_content/AI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

@@ -1,0 +1,60 @@
+﻿@model DetailsViewModel
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>You Want To Delete @Model.patientToReturnDto.Name Patient</h1>
+<form method="post" href="@Url.Action("Index", "Service" , @Model)">
+    
+    <div class="form-group">
+        <label class=" col-form-label" asp-for="@Model.patientToReturnDto.Id"></label>
+        <input readonly class="form-control" asp-for="@Model.patientToReturnDto.Id" placeholder="Enter Salary">
+    </div>
+    <div class="form-group">
+        <label class=" col-form-label" asp-for="@Model.patientToReturnDto.Name"></label>
+        <input readonly class="form-control" asp-for="@Model.patientToReturnDto.Name" placeholder="Enter Salary">
+    </div>
+    <div class="form-group">
+        <label class=" col-form-label" asp-for="@Model.patientToReturnDto.Country"></label>
+        <input readonly class="form-control" asp-for="@Model.patientToReturnDto.Country" placeholder="Enter Salary">
+    </div>
+    <div class="form-group">
+        <label class=" col-form-label" asp-for="@Model.patientToReturnDto.City"></label>
+        <input readonly class="form-control" asp-for="@Model.patientToReturnDto.City" placeholder="Enter Salary">
+    </div>
+    <div class="form-group">
+        <label class=" col-form-label" asp-for="@Model.patientToReturnDto.Phone"></label>
+        <input readonly class="form-control" asp-for="@Model.patientToReturnDto.Phone" placeholder="Enter Salary">
+    </div>
+    <div class="form-group">
+        <label class=" col-form-label" asp-for="@Model.patientToReturnDto.Age"></label>
+        <input readonly class="form-control" asp-for="@Model.patientToReturnDto.Age" placeholder="Enter Salary">
+    </div>
+    <div class="form-group">
+        <label class=" col-form-label" asp-for="@Model.patientToReturnDto.Diagnosed"></label>
+        <input readonly class="form-control" asp-for="@Model.patientToReturnDto.Diagnosed" placeholder="Enter Salary">
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="form-group">
+        <label class=" col-form-label" asp-for="@Model.patientToReturnDto.MriUrl"></label>
+        <img src="~/Images/Mri/@Model.patientToReturnDto.MriUrl" class="img-fluid" alt="Responsive image" />
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="form-group">
+        <label class=" col-form-label" asp-for="@Model.patientToReturnDto.segmentUrl"></label>
+        <img src="~/Images/Segmentation/@Model.patientToReturnDto.segmentUrl" class="img-fluid" alt="Responsive image">
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <input type="submit" value="Delete" class="btn btn-danger" />
+    <a href="@Url.Action("Index", "Service" , @Model.loginDto)" class="btn btn-dark">Back To List</a>
+</form>
+

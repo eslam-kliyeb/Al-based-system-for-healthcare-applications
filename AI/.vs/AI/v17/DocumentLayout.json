@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project AI\\AI\\API\\AI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21092B81-F46A-41DD-A46F-B540C2129FEB}|AI.Services\\AI.Services.csproj|d:\\project ai\\ai\\api\\ai\\ai.services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21092B81-F46A-41DD-A46F-B540C2129FEB}|AI.Services\\AI.Services.csproj|solutionrelative:ai.services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21092B81-F46A-41DD-A46F-B540C2129FEB}|AI.Services\\AI.Services.csproj|d:\\project ai\\ai\\api\\ai\\ai.services\\cashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21092B81-F46A-41DD-A46F-B540C2129FEB}|AI.Services\\AI.Services.csproj|solutionrelative:ai.services\\cashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4282BC0C-2824-49D6-B8F7-FE6E484355A0}|AI.Core\\AI.Core.csproj|d:\\project ai\\ai\\api\\ai\\ai.core\\interfaces\\service\\icashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4282BC0C-2824-49D6-B8F7-FE6E484355A0}|AI.Core\\AI.Core.csproj|solutionrelative:ai.core\\interfaces\\service\\icashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DEBCFE3-0875-4581-848E-1F63E808E69C}|AI.Repository\\AI.Repository.csproj|d:\\project ai\\ai\\api\\ai\\ai.repository\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DEBCFE3-0875-4581-848E-1F63E808E69C}|AI.Repository\\AI.Repository.csproj|solutionrelative:ai.repository\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DEBCFE3-0875-4581-848E-1F63E808E69C}|AI.Repository\\AI.Repository.csproj|d:\\project ai\\ai\\api\\ai\\ai.repository\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DEBCFE3-0875-4581-848E-1F63E808E69C}|AI.Repository\\AI.Repository.csproj|solutionrelative:ai.repository\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4282BC0C-2824-49D6-B8F7-FE6E484355A0}|AI.Core\\AI.Core.csproj|d:\\project ai\\ai\\api\\ai\\ai.core\\interfaces\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4282BC0C-2824-49D6-B8F7-FE6E484355A0}|AI.Core\\AI.Core.csproj|solutionrelative:ai.core\\interfaces\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4282BC0C-2824-49D6-B8F7-FE6E484355A0}|AI.Core\\AI.Core.csproj|d:\\project ai\\ai\\api\\ai\\ai.core\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4282BC0C-2824-49D6-B8F7-FE6E484355A0}|AI.Core\\AI.Core.csproj|solutionrelative:ai.core\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4282BC0C-2824-49D6-B8F7-FE6E484355A0}|AI.Core\\AI.Core.csproj|d:\\project ai\\ai\\api\\ai\\ai.core\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4282BC0C-2824-49D6-B8F7-FE6E484355A0}|AI.Core\\AI.Core.csproj|solutionrelative:ai.core\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4282BC0C-2824-49D6-B8F7-FE6E484355A0}|AI.Core\\AI.Core.csproj|d:\\project ai\\ai\\api\\ai\\ai.core\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4282BC0C-2824-49D6-B8F7-FE6E484355A0}|AI.Core\\AI.Core.csproj|solutionrelative:ai.core\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21092B81-F46A-41DD-A46F-B540C2129FEB}|AI.Services\\AI.Services.csproj|d:\\project ai\\ai\\api\\ai\\ai.services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21092B81-F46A-41DD-A46F-B540C2129FEB}|AI.Services\\AI.Services.csproj|solutionrelative:ai.services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21092B81-F46A-41DD-A46F-B540C2129FEB}|AI.Services\\AI.Services.csproj|d:\\project ai\\ai\\api\\ai\\ai.services\\classifierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21092B81-F46A-41DD-A46F-B540C2129FEB}|AI.Services\\AI.Services.csproj|solutionrelative:ai.services\\classifierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DEBCFE3-0875-4581-848E-1F63E808E69C}|AI.Repository\\AI.Repository.csproj|d:\\project ai\\ai\\api\\ai\\ai.repository\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DEBCFE3-0875-4581-848E-1F63E808E69C}|AI.Repository\\AI.Repository.csproj|solutionrelative:ai.repository\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICashService.cs",
+              "DocumentMoniker": "D:\\Project AI\\AI\\API\\AI\\AI.Core\\Interfaces\\Service\\ICashService.cs",
+              "RelativeDocumentMoniker": "AI.Core\\Interfaces\\Service\\ICashService.cs",
+              "ToolTip": "D:\\Project AI\\AI\\API\\AI\\AI.Core\\Interfaces\\Service\\ICashService.cs",
+              "RelativeToolTip": "AI.Core\\Interfaces\\Service\\ICashService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T10:24:07.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\Project AI\\AI\\API\\AI\\AI.Repository\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "AI.Repository\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "D:\\Project AI\\AI\\API\\AI\\AI.Repository\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "AI.Repository\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T10:04:22.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\Project AI\\AI\\API\\AI\\AI.Repository\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "AI.Repository\\Repositories\\GenericRepository.cs",
+              "ToolTip": "D:\\Project AI\\AI\\API\\AI\\AI.Repository\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "AI.Repository\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T10:02:35.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\Project AI\\AI\\API\\AI\\AI.Core\\Interfaces\\Repositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "AI.Core\\Interfaces\\Repositories\\IUnitOfWork.cs",
+              "ToolTip": "D:\\Project AI\\AI\\API\\AI\\AI.Core\\Interfaces\\Repositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "AI.Core\\Interfaces\\Repositories\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T10:02:27.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\Project AI\\AI\\API\\AI\\AI.Core\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "AI.Core\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "D:\\Project AI\\AI\\API\\AI\\AI.Core\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "AI.Core\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T09:53:42.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "D:\\Project AI\\AI\\API\\AI\\AI.Core\\Entities\\Doctor.cs",
+              "RelativeDocumentMoniker": "AI.Core\\Entities\\Doctor.cs",
+              "ToolTip": "D:\\Project AI\\AI\\API\\AI\\AI.Core\\Entities\\Doctor.cs",
+              "RelativeToolTip": "AI.Core\\Entities\\Doctor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T09:53:13.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "D:\\Project AI\\AI\\API\\AI\\AI.Core\\Entities\\Patient.cs",
+              "RelativeDocumentMoniker": "AI.Core\\Entities\\Patient.cs",
+              "ToolTip": "D:\\Project AI\\AI\\API\\AI\\AI.Core\\Entities\\Patient.cs",
+              "RelativeToolTip": "AI.Core\\Entities\\Patient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T09:44:20.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "D:\\Project AI\\AI\\API\\AI\\AI.Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "AI.Services\\PatientService.cs",
+              "ToolTip": "D:\\Project AI\\AI\\API\\AI\\AI.Services\\PatientService.cs",
+              "RelativeToolTip": "AI.Services\\PatientService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:40:08.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CashService.cs",
+              "DocumentMoniker": "D:\\Project AI\\AI\\API\\AI\\AI.Services\\CashService.cs",
+              "RelativeDocumentMoniker": "AI.Services\\CashService.cs",
+              "ToolTip": "D:\\Project AI\\AI\\API\\AI\\AI.Services\\CashService.cs",
+              "RelativeToolTip": "AI.Services\\CashService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T06:27:06.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\Project AI\\AI\\API\\AI\\AI.Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "AI.Services\\TokenService.cs",
+              "ToolTip": "D:\\Project AI\\AI\\API\\AI\\AI.Services\\TokenService.cs",
+              "RelativeToolTip": "AI.Services\\TokenService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T06:26:08.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClassifierService.cs",
+              "DocumentMoniker": "D:\\Project AI\\AI\\API\\AI\\AI.Services\\ClassifierService.cs",
+              "RelativeDocumentMoniker": "AI.Services\\ClassifierService.cs",
+              "ToolTip": "D:\\Project AI\\AI\\API\\AI\\AI.Services\\ClassifierService.cs",
+              "RelativeToolTip": "AI.Services\\ClassifierService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T06:27:05.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "D:\\Project AI\\AI\\API\\AI\\AI.Repository\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "AI.Repository\\Data\\DataContext.cs",
+              "ToolTip": "D:\\Project AI\\AI\\API\\AI\\AI.Repository\\Data\\DataContext.cs",
+              "RelativeToolTip": "AI.Repository\\Data\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T06:27:02.416Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

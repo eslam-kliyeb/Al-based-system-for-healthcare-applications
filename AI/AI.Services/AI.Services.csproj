@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\win\.nuget\packages\quantconnect.pythonnet\2.0.36\contentFiles\any\any\clr.py" />
+    <None Remove="C:\Users\win\.nuget\packages\quantconnect.pythonnet\2.0.36\contentFiles\any\any\pythonnet\find_libpython\__init__.py" />
+    <None Remove="C:\Users\win\.nuget\packages\quantconnect.pythonnet\2.0.36\contentFiles\any\any\pythonnet\find_libpython\__main__.py" />
+    <None Remove="C:\Users\win\.nuget\packages\quantconnect.pythonnet\2.0.36\contentFiles\any\any\pythonnet\runtime\Python.Runtime.deps.json" />
+    <None Remove="C:\Users\win\.nuget\packages\quantconnect.pythonnet\2.0.36\contentFiles\any\any\pythonnet\runtime\Python.Runtime.dll" />
+    <None Remove="C:\Users\win\.nuget\packages\quantconnect.pythonnet\2.0.36\contentFiles\any\any\pythonnet\runtime\Python.Runtime.pdb" />
+    <None Remove="C:\Users\win\.nuget\packages\quantconnect.pythonnet\2.0.36\contentFiles\any\any\pythonnet\util\__init__.py" />
+    <None Remove="C:\Users\win\.nuget\packages\quantconnect.pythonnet\2.0.36\contentFiles\any\any\pythonnet\__init__.py" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.31" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="pythonnet" Version="3.0.3" />
+    <PackageReference Include="StackExchange.Redis" Version="2.7.33" />
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AI.Repository\AI.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

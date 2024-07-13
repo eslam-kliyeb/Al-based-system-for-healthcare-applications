@@ -1,0 +1,17 @@
+D:\Project AI\AI\API\AI\AI.Repository\bin\Debug\net6.0\AI.Repository.deps.json
+D:\Project AI\AI\API\AI\AI.Repository\bin\Debug\net6.0\AI.Repository.runtimeconfig.json
+D:\Project AI\AI\API\AI\AI.Repository\bin\Debug\net6.0\AI.Repository.dll
+D:\Project AI\AI\API\AI\AI.Repository\bin\Debug\net6.0\AI.Repository.pdb
+D:\Project AI\AI\API\AI\AI.Repository\bin\Debug\net6.0\AI.Core.dll
+D:\Project AI\AI\API\AI\AI.Repository\bin\Debug\net6.0\AI.Core.pdb
+D:\Project AI\AI\API\AI\AI.Repository\obj\Debug\net6.0\AI.Repository.csproj.AssemblyReference.cache
+D:\Project AI\AI\API\AI\AI.Repository\obj\Debug\net6.0\AI.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project AI\AI\API\AI\AI.Repository\obj\Debug\net6.0\AI.Repository.AssemblyInfoInputs.cache
+D:\Project AI\AI\API\AI\AI.Repository\obj\Debug\net6.0\AI.Repository.AssemblyInfo.cs
+D:\Project AI\AI\API\AI\AI.Repository\obj\Debug\net6.0\AI.Repository.csproj.CoreCompileInputs.cache
+D:\Project AI\AI\API\AI\AI.Repository\obj\Debug\net6.0\AI.Repos.3DFA6229.Up2Date
+D:\Project AI\AI\API\AI\AI.Repository\obj\Debug\net6.0\AI.Repository.dll
+D:\Project AI\AI\API\AI\AI.Repository\obj\Debug\net6.0\refint\AI.Repository.dll
+D:\Project AI\AI\API\AI\AI.Repository\obj\Debug\net6.0\AI.Repository.pdb
+D:\Project AI\AI\API\AI\AI.Repository\obj\Debug\net6.0\AI.Repository.genruntimeconfig.cache
+D:\Project AI\AI\API\AI\AI.Repository\obj\Debug\net6.0\ref\AI.Repository.dll

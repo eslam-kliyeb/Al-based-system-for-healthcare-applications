@@ -1,0 +1,91 @@
+﻿@model PatientViewModel
+@{
+	ViewData["Title"] = "Index";
+	var res = new EditViewModel()
+			{
+				loginDto = @Model.LoginDto
+			};
+
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Patient</title>
+</head>
+<body>
+
+	<h1>All Patients</h1>
+	<hr />
+
+	<a href="@Url.Action("Create", "Service" , @Model.LoginDto)" class="btn btn-outline-primary m-2">Add New Patient</a>
+	@if (Model.Patient.Count() > 0)
+	{
+		<div class="container">
+			<table class="table table-hover table-striped table-bordered dt-responsive nowrap">
+				<thead class="bg-dark text-white text-center">
+					<tr>
+						<th>Id</th>
+						<th>Name</th>
+						<th>Country</th>
+						<th>City</th>
+						<th>Phone</th>
+						<th>Age</th>
+						<th>Diagnosed</th>
+						<th>Delete</th>
+						<th>Details</th>
+					</tr>
+				</thead>
+				<tbody>
+					<div class="form-group">
+						<label class=" col-form-label" asp-for="@Model.LoginDto.Email" hidden></label>
+						<input readonly class="form-control" asp-for="@Model.LoginDto.Email" placeholder="Enter Salary" hidden>
+					</div>
+					<div class="form-group">
+						<label class=" col-form-label" asp-for="@Model.LoginDto.Password" hidden></label>
+						<input readonly class="form-control" asp-for="@Model.LoginDto.Password" placeholder="Enter Salary" hidden>
+					</div>
+					@foreach (var Patient in Model.Patient)
+					{
+						<tr>
+							<td>@Patient.Id</td>
+							<td>@Patient.Name</td>
+							<td>@Patient.Country</td>
+							<td>@Patient.City</td>
+							<td>@Patient.Phone</td>
+							<td>@Patient.Age</td>
+							<td>@Patient.Diagnosed</td>
+							@{
+								string x = Patient.Id.ToString();
+							}
+							<td>
+								<div class=" d-flex">
+									<a class="btn text-danger" href="@Url.Action("Delete", "Service" , new { Email = Model.LoginDto.Email, Password = x })"><i class="fas fa-trash"></i></a>
+								</div>
+							</td>
+							<td>
+								<div class=" d-flex">
+									<a class="btn btn-success" href="@Url.Action("Details", "Service" , new { Email = Model.LoginDto.Email, Password = x })"><i class="fas fa-eye"></i></a>
+								</div>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		</div>
+
+	}
+	else
+	{
+		<div class="mt-3 p-3 alert-warning">
+			<h2>There is no Patient!</h2>
+		</div>
+	}
+	@section Scripts
+ {
+		<partial name="_ValidationScriptsPartial" />
+	}
+
+</body>
+</html>

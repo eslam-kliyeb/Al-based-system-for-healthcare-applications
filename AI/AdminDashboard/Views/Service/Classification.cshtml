@@ -1,0 +1,64 @@
+﻿@model ClassificationViewModel
+@{
+    ViewData["Title"] = "Classification";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="~/css/Services/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<!-- Main Template CSS File -->
+<link rel="stylesheet" href="~/css/Services/leon.css" />
+<!-- Render All Elements Normally -->
+<link rel="stylesheet" href="~/css/Services/normalize.css" />
+<!-- Font Awesome Library -->
+<link rel="stylesheet" href="~/css/Services/all.min.css" />
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet" />
+<script type="text/javascript" src="/HTML_And_CSS_Template_One-main/javascript/javascript.js"></script>
+<!--chat bot-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google Fonts Link For Icons -->
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+<script src="script.js" defer></script>
+
+<div class="dr"><h2><span>Hello </span> Dear <span>Doctor</span> <span>In Classification</span></h2></div>
+
+<form method="post" href="@Url.Action("Classification", "Service" ,Model)" enctype="multipart/form-data">
+    <br />
+    <br />
+    <br />
+    <div class="form-group">
+        <label asp-for="@Model.Image" class="col-form-label "></label>
+        <input asp-for="@Model.Image" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label class=" col-form-label" asp-for="@Model.answer" hidden></label>
+        <input readonly class="form-control" asp-for="@Model.answer" placeholder="Enter Salary" hidden>
+    </div>
+
+    <div class="form-group">
+        <label class=" col-form-label" asp-for="@Model.loginDto.Email" hidden></label>
+        <input readonly class="form-control" asp-for="@Model.loginDto.Email" placeholder="Enter Salary" hidden>
+    </div>
+    <div class="form-group">
+        <label class=" col-form-label" asp-for="@Model.loginDto.Password" hidden></label>
+        <input readonly class="form-control" asp-for="@Model.loginDto.Password" placeholder="Enter Salary" hidden>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <input type="submit" value="Add" class="btn btn-primary" />
+    <a href="@Url.Action("Index", "Service" , new { email = Model.loginDto.Email, password = Model.loginDto.Password })" class="btn btn-light">Back To List</a>
+</form>
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}

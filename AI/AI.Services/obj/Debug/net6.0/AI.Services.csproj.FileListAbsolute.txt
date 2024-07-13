@@ -1,0 +1,17 @@
+D:\Project AI\AI\API\AI\AI.Services\bin\Debug\net6.0\AI.Services.deps.json
+D:\Project AI\AI\API\AI\AI.Services\bin\Debug\net6.0\AI.Services.dll
+D:\Project AI\AI\API\AI\AI.Services\bin\Debug\net6.0\AI.Services.pdb
+D:\Project AI\AI\API\AI\AI.Services\bin\Debug\net6.0\AI.Core.dll
+D:\Project AI\AI\API\AI\AI.Services\bin\Debug\net6.0\AI.Repository.dll
+D:\Project AI\AI\API\AI\AI.Services\bin\Debug\net6.0\AI.Repository.pdb
+D:\Project AI\AI\API\AI\AI.Services\bin\Debug\net6.0\AI.Core.pdb
+D:\Project AI\AI\API\AI\AI.Services\obj\Debug\net6.0\AI.Services.csproj.AssemblyReference.cache
+D:\Project AI\AI\API\AI\AI.Services\obj\Debug\net6.0\AI.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project AI\AI\API\AI\AI.Services\obj\Debug\net6.0\AI.Services.AssemblyInfoInputs.cache
+D:\Project AI\AI\API\AI\AI.Services\obj\Debug\net6.0\AI.Services.AssemblyInfo.cs
+D:\Project AI\AI\API\AI\AI.Services\obj\Debug\net6.0\AI.Services.csproj.CoreCompileInputs.cache
+D:\Project AI\AI\API\AI\AI.Services\obj\Debug\net6.0\AI.Servi.1CCC2BB3.Up2Date
+D:\Project AI\AI\API\AI\AI.Services\obj\Debug\net6.0\AI.Services.dll
+D:\Project AI\AI\API\AI\AI.Services\obj\Debug\net6.0\refint\AI.Services.dll
+D:\Project AI\AI\API\AI\AI.Services\obj\Debug\net6.0\AI.Services.pdb
+D:\Project AI\AI\API\AI\AI.Services\obj\Debug\net6.0\ref\AI.Services.dll
